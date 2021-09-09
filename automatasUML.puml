@@ -1,0 +1,10 @@
+@startuml
+class Controlador.Controlador
+class Modelo.Modelo
+class Vista.Vistas
+
+interface java.awt.event.ActionListener
+Controlador.Controlador ..> Modelo.Modelo
+Controlador.Controlador ..> Vista.Vistas
+Controlador.Controlador --|> java.awt.event.ActionListener
+@enduml
